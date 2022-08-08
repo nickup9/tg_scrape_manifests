@@ -20,9 +20,11 @@ from config import Config
 #       then we download all manifests for all days
 #   Okay but what's the numbers: Fuck if I know
 def main():
-    possible_months = get_months(Config.year)
+    print('startup')
+    possible_months = get_months()
 
     if os.path.exists(Config.data_path) == False:
+        print('Making data dir')
         os.makedirs(Config.data_path)
     
     # To redownload all data (takes a long time) (maybe don't do this)
@@ -42,6 +44,7 @@ def main():
         # Hey, we okay to download?
         if Config.download_okay:
             print('Getting missing data, please be patient')
+            print(f'Missing data: {missing_months}')
             get_data(missing_months)
             print('Beginning analyisis')
             analyze_data(possible_months)
@@ -121,13 +124,14 @@ def analyze_data(months_dict):
 # Get a dict of all months in a given year.
 # Necessary since if you're looking at the current year, there's prolly not
 #    all 12 months to pull from.
-def get_months(year):
+def get_months():
     cur_year = datetime.now().year
     possible_months = {}
 
     while cur_year >= Config.year:
+        # breakpoint()
         possible_months[cur_year] = []
-        url = url = f'{Config.base_url}/{year}?index_format=json'
+        url = url = f'{Config.base_url}/{cur_year}?index_format=json'
         response = try_request(url)
         if response.ok:
             response = response.json()
