@@ -15,7 +15,7 @@ import os
 class Config:
     server = 'manuel'
     year = 2022
-    jobs = ['Scientist', 'Research Director', 'Chemist', 'Geneticist']
+    jobs = ['Assistant']
     download_okay = True
     base_url = f'https://tgstation13.org/parsed-logs/{server}/data/logs/'
     hard_reset = False
