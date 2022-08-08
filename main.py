@@ -115,7 +115,7 @@ def analyze_data(months_dict):
             year_median = statistics.median(year_data)
             year_mean = statistics.mean(year_data)
             res_file.write(f'\n----Year {year}----\n')
-            res_file.write(f'median: {year_median} mean: {year_mean}\n')
+            res_file.write(f'median: {year_median} mean: {year_mean}\n\n')
         median = statistics.median(all_data)
         mean = statistics.mean(all_data)
         res_file.write(f'\nAll\n')
@@ -158,7 +158,7 @@ def try_request(url):
         try:
             response = requests.get(url, timeout = 2)
             return response
-        except requests.exceptions.ReadTimeout:
+        except:
             print(f'retrying {attempts}/5...')
             attempts = attempts + 1
     raise TimeoutError('Timed out while scraping data!')
