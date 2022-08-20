@@ -17,7 +17,8 @@ from config import Config
 #   Amt data downloaded: About 1.25 MB per month, give or take 1/4 a meg
 #   Bandwidth: Requests are made for each year, month, and day to build the dict 
 #       (or list for the case of days) of loggable days/months/years, 
-#       then we download all manifests for all days
+#       then we download all manifests for all days for all 
+#       months that are missing
 #   Okay but what's the numbers: Fuck if I know
 def main():
     print('startup')
@@ -103,7 +104,7 @@ def analyze_data(months_dict):
                     with open(fname_loc, 'r') as f:
                         lines = f.readlines()
                         # -3 due to lines we don't want being present
-                        if (len(lines) - 3) >= 40:
+                        if (len(lines) - 3) >= Config.player_pop:
                             num_occur = read_manifest_lines(lines)
                             year_data.append(num_occur)
                             month_data.append(num_occur)
