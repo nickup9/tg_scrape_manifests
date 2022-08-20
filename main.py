@@ -3,6 +3,10 @@ import os
 import requests
 import shutil
 import statistics
+import matplotlib.pyplot as plt
+import matplotlib.dates as dates
+import pandas as pd
+import numpy as np
 
 from datetime import datetime
 from config import Config
@@ -92,6 +96,7 @@ def get_data(months_dict):
 
 # Analyze data, spit out results based on month, year, and all data.
 def analyze_data(months_dict):
+    graph_data = []
     with open(os.path.join(Config.data_path, f'results.txt'), 'w') as res_file:
         res_file.write(f'Getting results with the jobs {Config.jobs} \n\n')
         all_data = []
@@ -113,6 +118,8 @@ def analyze_data(months_dict):
                 month_mean = statistics.mean(month_data)
                 res_file.write(f'---Year {year} month {month}---\n')
                 res_file.write(f'median: {month_median} mean: {month_mean}\n')
+                # for graphing later:
+                graph_data.append((int(f'{year}{month}'), f'{year}-{month}', month_mean))
             year_median = statistics.median(year_data)
             year_mean = statistics.mean(year_data)
             res_file.write(f'\n----Year {year}----\n')
@@ -121,6 +128,27 @@ def analyze_data(months_dict):
         mean = statistics.mean(all_data)
         res_file.write(f'\nAll\n')
         res_file.write(f'median: {median} mean: {mean}\n')
+    
+    # start plotting data
+    # sort data
+    graph_data = sorted(graph_data, key=lambda tup: tup[0])
+    raw_x = [i[1] for i in graph_data]
+    x_val = pd.to_datetime(raw_x, format='%Y-%m')
+    y_val = [i[2] for i in graph_data]
+
+    # find and plot line of best fit
+    numvals = dates.datestr2num(raw_x)
+    theta = np.polyfit(numvals, y_val, 1)
+    # reminder: theta 0 = slope
+    fit_line = theta[1] + theta[0] * numvals
+    plt.plot(x_val, fit_line, 'r')
+
+    plt.plot(x_val, y_val)
+    plt.xlabel('Year and month')
+    plt.ylabel('Average')
+    plt.title(f'Averages with target jobs {Config.jobs} -- slope = {theta[0]}')
+    plt.tight_layout()
+    plt.savefig(os.path.join(Config.data_path, 'results_graph.png'), bbox_inches='tight')
             
 # Get a dict of all months in a given year.
 # Necessary since if you're looking at the current year, there's prolly not
