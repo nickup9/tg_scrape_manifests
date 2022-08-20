@@ -97,6 +97,7 @@ def get_data(months_dict):
 # Analyze data, spit out results based on month, year, and all data.
 def analyze_data(months_dict):
     graph_data = []
+    month_scores = []
     with open(os.path.join(Config.data_path, f'results.txt'), 'w') as res_file:
         res_file.write(f'Getting results with the jobs {Config.jobs} \n\n')
         all_data = []
@@ -109,6 +110,7 @@ def analyze_data(months_dict):
                     with open(fname_loc, 'r') as f:
                         lines = f.readlines()
                         # -3 due to lines we don't want being present
+                        # TODO: save data by day, to graph later
                         if (len(lines) - 3) >= Config.player_pop:
                             num_occur = read_manifest_lines(lines)
                             year_data.append(num_occur)
@@ -120,6 +122,9 @@ def analyze_data(months_dict):
                 res_file.write(f'median: {month_median} mean: {month_mean}\n')
                 # for graphing later:
                 graph_data.append((int(f'{year}{month}'), f'{year}-{month}', month_mean))
+                month_scores.append((int(f'{year}{month}'), f'{year}-{month}', sum(month_data)))
+                
+                
             year_median = statistics.median(year_data)
             year_mean = statistics.mean(year_data)
             res_file.write(f'\n----Year {year}----\n')
@@ -129,7 +134,7 @@ def analyze_data(months_dict):
         res_file.write(f'\nAll\n')
         res_file.write(f'median: {median} mean: {mean}\n')
     
-    # start plotting data
+    # start plotting data: raw numbers
     # sort data
     graph_data = sorted(graph_data, key=lambda tup: tup[0])
     raw_x = [i[1] for i in graph_data]
@@ -149,6 +154,31 @@ def analyze_data(months_dict):
     plt.title(f'Averages with target jobs {Config.jobs} -- slope = {theta[0]}')
     plt.tight_layout()
     plt.savefig(os.path.join(Config.data_path, 'results_graph.png'), bbox_inches='tight')
+
+    plt.clf()
+
+    # TODO: make this and the above a function
+    # The same, but now for zscores
+    month_scores = sorted(month_scores, key=lambda tup: tup[0])
+    y_val = [i[2] for i in month_scores]
+    samplestddev = statistics.stdev(y_val)
+    samplemean = statistics.mean(y_val)
+    zscores = []
+    for val in y_val:
+        zscore = (val - samplemean) / samplestddev
+        zscores.append(zscore)
+    theta = np.polyfit(numvals, zscores, 1)
+    fit_line = theta[1] + theta[0] * numvals
+    plt.plot(x_val, fit_line, 'r')
+
+    # Actually plot
+    plt.plot(x_val, zscores)
+    plt.xlabel('Year and month')
+    plt.ylabel('zscore')
+    plt.title(f'zscores with target jobs {Config.jobs} -- slope = {theta[0]}')
+    plt.tight_layout()
+    plt.savefig(os.path.join(Config.data_path, 'results_graph_z.png'), bbox_inches='tight')
+        
             
 # Get a dict of all months in a given year.
 # Necessary since if you're looking at the current year, there's prolly not
