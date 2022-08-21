@@ -1,0 +1,81 @@
+Getting results with the jobs ['Assistant'] 
+
+---Year 2022 month 01---
+median: 11 mean: 11.440993788819876
+---Year 2022 month 02---
+median: 9.0 mean: 9.19951923076923
+---Year 2022 month 03---
+median: 8.0 mean: 8.783018867924529
+---Year 2022 month 04---
+median: 6 mean: 8.334177215189873
+---Year 2022 month 05---
+median: 6 mean: 8.070021881838075
+---Year 2022 month 06---
+median: 9.0 mean: 10.696120689655173
+---Year 2022 month 07---
+median: 9.0 mean: 11.667355371900827
+---Year 2022 month 08---
+median: 9.0 mean: 9.370860927152318
+
+----Year 2022----
+median: 8 mean: 9.78014598540146
+
+---Year 2021 month 01---
+median: 6.0 mean: 6.427561837455831
+---Year 2021 month 02---
+median: 4 mean: 4.795959595959596
+---Year 2021 month 03---
+median: 7 mean: 7.059674502712477
+---Year 2021 month 04---
+median: 8 mean: 8.057591623036648
+---Year 2021 month 05---
+median: 8.0 mean: 7.895985401459854
+---Year 2021 month 06---
+median: 8.0 mean: 8.646840148698885
+---Year 2021 month 07---
+median: 8 mean: 9.042990654205607
+---Year 2021 month 08---
+median: 8.0 mean: 8.577519379844961
+---Year 2021 month 09---
+median: 8 mean: 8.544698544698544
+---Year 2021 month 10---
+median: 8.0 mean: 9.87295081967213
+---Year 2021 month 11---
+median: 9.0 mean: 11.489406779661017
+---Year 2021 month 12---
+median: 11.0 mean: 11.468354430379748
+
+----Year 2021----
+median: 7 mean: 8.42490783779452
+
+---Year 2020 month 01---
+median: 3 mean: 3.6104513064133017
+---Year 2020 month 02---
+median: 1 mean: 2.2826666666666666
+---Year 2020 month 03---
+median: 2 mean: 4.071910112359551
+---Year 2020 month 04---
+median: 7 mean: 9.076023391812866
+---Year 2020 month 05---
+median: 4.0 mean: 4.882352941176471
+---Year 2020 month 06---
+median: 6.0 mean: 6.553846153846154
+---Year 2020 month 07---
+median: 6 mean: 6.69109947643979
+---Year 2020 month 08---
+median: 5 mean: 5.658444022770398
+---Year 2020 month 09---
+median: 4.0 mean: 5.621739130434783
+---Year 2020 month 10---
+median: 7.0 mean: 7.909465020576132
+---Year 2020 month 11---
+median: 7.5 mean: 8.180434782608696
+---Year 2020 month 12---
+median: 6 mean: 6.895327102803738
+
+----Year 2020----
+median: 5 mean: 6.091175962700743
+
+
+All
+median: 6 mean: 7.8507926237463606

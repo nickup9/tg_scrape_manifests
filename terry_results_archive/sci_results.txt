@@ -1,0 +1,81 @@
+Getting results with the jobs ['Scientist', 'Geneticist', 'Research Director'] 
+
+---Year 2022 month 01---
+median: 5 mean: 4.786749482401656
+---Year 2022 month 02---
+median: 4.0 mean: 4.382211538461538
+---Year 2022 month 03---
+median: 4.0 mean: 4.153301886792453
+---Year 2022 month 04---
+median: 4 mean: 3.9949367088607595
+---Year 2022 month 05---
+median: 4 mean: 3.982494529540481
+---Year 2022 month 06---
+median: 5.0 mean: 4.818965517241379
+---Year 2022 month 07---
+median: 5.0 mean: 4.512396694214876
+---Year 2022 month 08---
+median: 4.0 mean: 4.347682119205298
+
+----Year 2022----
+median: 4 mean: 4.387445255474453
+
+---Year 2021 month 01---
+median: 4.0 mean: 3.628975265017668
+---Year 2021 month 02---
+median: 3 mean: 3.16969696969697
+---Year 2021 month 03---
+median: 3 mean: 3.4755877034358047
+---Year 2021 month 04---
+median: 4 mean: 3.68760907504363
+---Year 2021 month 05---
+median: 4.0 mean: 4.251824817518248
+---Year 2021 month 06---
+median: 4.0 mean: 4.25092936802974
+---Year 2021 month 07---
+median: 5 mean: 4.34018691588785
+---Year 2021 month 08---
+median: 4.0 mean: 4.282945736434108
+---Year 2021 month 09---
+median: 4 mean: 4.120582120582121
+---Year 2021 month 10---
+median: 4.0 mean: 4.067622950819672
+---Year 2021 month 11---
+median: 4.0 mean: 4.139830508474576
+---Year 2021 month 12---
+median: 4.0 mean: 4.20042194092827
+
+----Year 2021----
+median: 4 mean: 3.9620131431319123
+
+---Year 2020 month 01---
+median: 1 mean: 1.7719714964370545
+---Year 2020 month 02---
+median: 1 mean: 1.6373333333333333
+---Year 2020 month 03---
+median: 2 mean: 2.757303370786517
+---Year 2020 month 04---
+median: 5 mean: 4.6003898635477585
+---Year 2020 month 05---
+median: 3.0 mean: 2.9096638655462184
+---Year 2020 month 06---
+median: 3.0 mean: 3.2326923076923078
+---Year 2020 month 07---
+median: 3 mean: 3.2338568935427574
+---Year 2020 month 08---
+median: 4 mean: 3.609108159392789
+---Year 2020 month 09---
+median: 3.0 mean: 3.3521739130434782
+---Year 2020 month 10---
+median: 5.0 mean: 4.576131687242798
+---Year 2020 month 11---
+median: 4.0 mean: 4.260869565217392
+---Year 2020 month 12---
+median: 4 mean: 4.074766355140187
+
+----Year 2020----
+median: 3 mean: 3.397340701087895
+
+
+All
+median: 4 mean: 3.844710449692656
