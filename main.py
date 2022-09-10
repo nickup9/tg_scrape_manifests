@@ -217,6 +217,7 @@ def try_request(url):
         try:
             response = requests.get(url, timeout = 2)
             return response
+        # I've tried excepting only for timeout errors but it don't work, I dunno.
         except:
             print(f'retrying {attempts}/5...')
             attempts = attempts + 1

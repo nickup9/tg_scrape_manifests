@@ -1,0 +1,83 @@
+Getting results with the jobs ['Medical Doctor', 'Chemist', 'Paramedic', 'Chief Medical Officer'] 
+
+---Year 2022 month 01---
+median: 6 mean: 5.788856304985337
+---Year 2022 month 02---
+median: 7 mean: 6.658610271903323
+---Year 2022 month 03---
+median: 6 mean: 5.88
+---Year 2022 month 04---
+median: 4.0 mean: 4.171428571428572
+---Year 2022 month 05---
+median: 3.0 mean: 3.358695652173913
+---Year 2022 month 06---
+median: 4.0 mean: 4.51058201058201
+---Year 2022 month 07---
+median: 4 mean: 4.095607235142118
+---Year 2022 month 08---
+median: 3 mean: 3.7197943444730077
+---Year 2022 month 09---
+median: 4 mean: 4.548672566371682
+
+----Year 2022----
+median: 5.0 mean: 4.739365293720459
+
+---Year 2021 month 01---
+median: 4.0 mean: 4.488700564971752
+---Year 2021 month 02---
+median: 5 mean: 4.411411411411412
+---Year 2021 month 03---
+median: 4.0 mean: 4.3138297872340425
+---Year 2021 month 04---
+median: 5.0 mean: 4.803763440860215
+---Year 2021 month 05---
+median: 5.0 mean: 5.027027027027027
+---Year 2021 month 06---
+median: 5.0 mean: 5.131578947368421
+---Year 2021 month 07---
+median: 5 mean: 5.027707808564232
+---Year 2021 month 08---
+median: 4.0 mean: 4.4324324324324325
+---Year 2021 month 09---
+median: 4.0 mean: 4.360795454545454
+---Year 2021 month 10---
+median: 5 mean: 5.0498533724340176
+---Year 2021 month 11---
+median: 5 mean: 5.408026755852843
+---Year 2021 month 12---
+median: 5 mean: 4.583596214511041
+
+----Year 2021----
+median: 5 mean: 4.750058671673316
+
+---Year 2020 month 01---
+median: 6.0 mean: 5.897435897435898
+---Year 2020 month 02---
+median: 5.0 mean: 5.520348837209302
+---Year 2020 month 03---
+median: 5.0 mean: 5.225806451612903
+---Year 2020 month 04---
+median: 5.0 mean: 5.034313725490196
+---Year 2020 month 05---
+median: 5 mean: 4.786967418546366
+---Year 2020 month 06---
+median: 4 mean: 3.82370820668693
+---Year 2020 month 07---
+median: 4.0 mean: 3.9242424242424243
+---Year 2020 month 08---
+median: 4.0 mean: 3.8679245283018866
+---Year 2020 month 09---
+median: 4 mean: 4.144329896907217
+---Year 2020 month 10---
+median: 5.0 mean: 5.136627906976744
+---Year 2020 month 11---
+median: 5 mean: 4.719242902208202
+---Year 2020 month 12---
+median: 5 mean: 4.726495726495727
+
+----Year 2020----
+median: 5 mean: 4.752855407047387
+
+
+All
+median: 5.0 mean: 4.748280119950609

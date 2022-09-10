@@ -1,0 +1,83 @@
+Getting results with the jobs ['Shaft Miner', 'Cargo Technician', 'Quartermaster'] 
+
+---Year 2022 month 01---
+median: 6 mean: 5.269794721407624
+---Year 2022 month 02---
+median: 6 mean: 5.350453172205438
+---Year 2022 month 03---
+median: 5 mean: 5.277333333333333
+---Year 2022 month 04---
+median: 4.0 mean: 4.071428571428571
+---Year 2022 month 05---
+median: 4.0 mean: 3.4782608695652173
+---Year 2022 month 06---
+median: 5.0 mean: 4.505291005291006
+---Year 2022 month 07---
+median: 4 mean: 3.7906976744186047
+---Year 2022 month 08---
+median: 4 mean: 3.7814910025706943
+---Year 2022 month 09---
+median: 4 mean: 4.398230088495575
+
+----Year 2022----
+median: 5.0 mean: 4.424375422012154
+
+---Year 2021 month 01---
+median: 5.0 mean: 4.378531073446328
+---Year 2021 month 02---
+median: 4 mean: 4.018018018018018
+---Year 2021 month 03---
+median: 4.0 mean: 4.287234042553192
+---Year 2021 month 04---
+median: 5.0 mean: 5.064516129032258
+---Year 2021 month 05---
+median: 5.0 mean: 4.835135135135135
+---Year 2021 month 06---
+median: 5.0 mean: 4.992105263157895
+---Year 2021 month 07---
+median: 5 mean: 4.632241813602015
+---Year 2021 month 08---
+median: 4.0 mean: 4.043243243243243
+---Year 2021 month 09---
+median: 5.0 mean: 4.389204545454546
+---Year 2021 month 10---
+median: 5 mean: 4.431085043988269
+---Year 2021 month 11---
+median: 5 mean: 4.682274247491639
+---Year 2021 month 12---
+median: 5 mean: 4.507886435331231
+
+----Year 2021----
+median: 5 mean: 4.527106313072049
+
+---Year 2020 month 01---
+median: 6.0 mean: 5.477564102564102
+---Year 2020 month 02---
+median: 5.0 mean: 5.3895348837209305
+---Year 2020 month 03---
+median: 5.0 mean: 4.763440860215054
+---Year 2020 month 04---
+median: 5.0 mean: 4.806372549019608
+---Year 2020 month 05---
+median: 5 mean: 4.671679197994988
+---Year 2020 month 06---
+median: 5 mean: 4.364741641337386
+---Year 2020 month 07---
+median: 5.0 mean: 4.609090909090909
+---Year 2020 month 08---
+median: 4.0 mean: 4.044025157232705
+---Year 2020 month 09---
+median: 4 mean: 4.415807560137457
+---Year 2020 month 10---
+median: 5.0 mean: 4.531976744186046
+---Year 2020 month 11---
+median: 4 mean: 4.504731861198739
+---Year 2020 month 12---
+median: 5 mean: 4.396011396011396
+
+----Year 2020----
+median: 5 mean: 4.670230862697449
+
+
+All
+median: 5.0 mean: 4.552213794319986

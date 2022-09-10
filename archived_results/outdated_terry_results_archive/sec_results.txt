@@ -1,0 +1,81 @@
+Getting results with the jobs ['Security Officer', 'Head of Security', 'Detective', 'Warden'] 
+
+---Year 2022 month 01---
+median: 4 mean: 3.9254658385093166
+---Year 2022 month 02---
+median: 3.0 mean: 3.3485576923076925
+---Year 2022 month 03---
+median: 2.0 mean: 3.035377358490566
+---Year 2022 month 04---
+median: 2 mean: 2.962025316455696
+---Year 2022 month 05---
+median: 3 mean: 3.1094091903719914
+---Year 2022 month 06---
+median: 4.0 mean: 4.103448275862069
+---Year 2022 month 07---
+median: 4.0 mean: 4.243801652892562
+---Year 2022 month 08---
+median: 3.0 mean: 3.5099337748344372
+
+----Year 2022----
+median: 3 mean: 3.5576642335766424
+
+---Year 2021 month 01---
+median: 3.0 mean: 3.791519434628975
+---Year 2021 month 02---
+median: 3 mean: 3.278787878787879
+---Year 2021 month 03---
+median: 3 mean: 3.0452079566003616
+---Year 2021 month 04---
+median: 3 mean: 3.6858638743455496
+---Year 2021 month 05---
+median: 4.0 mean: 4.018248175182482
+---Year 2021 month 06---
+median: 4.0 mean: 3.925650557620818
+---Year 2021 month 07---
+median: 4 mean: 3.6523364485981307
+---Year 2021 month 08---
+median: 3.0 mean: 3.4263565891472867
+---Year 2021 month 09---
+median: 2 mean: 2.8482328482328483
+---Year 2021 month 10---
+median: 3.0 mean: 3.5635245901639343
+---Year 2021 month 11---
+median: 3.0 mean: 3.75
+---Year 2021 month 12---
+median: 3.0 mean: 3.4556962025316458
+
+----Year 2021----
+median: 3 mean: 3.545119410161885
+
+---Year 2020 month 01---
+median: 1 mean: 1.7387173396674585
+---Year 2020 month 02---
+median: 1 mean: 1.4613333333333334
+---Year 2020 month 03---
+median: 1 mean: 2.292134831460674
+---Year 2020 month 04---
+median: 4 mean: 5.120857699805068
+---Year 2020 month 05---
+median: 2.0 mean: 2.831932773109244
+---Year 2020 month 06---
+median: 3.0 mean: 3.4038461538461537
+---Year 2020 month 07---
+median: 3 mean: 3.6910994764397906
+---Year 2020 month 08---
+median: 4 mean: 4.159392789373814
+---Year 2020 month 09---
+median: 3.0 mean: 3.9869565217391303
+---Year 2020 month 10---
+median: 5.0 mean: 4.88477366255144
+---Year 2020 month 11---
+median: 4.0 mean: 4.521739130434782
+---Year 2020 month 12---
+median: 4 mean: 4.566355140186916
+
+----Year 2020----
+median: 3 mean: 3.6406492833707476
+
+
+All
+median: 3 mean: 3.583694597217729
